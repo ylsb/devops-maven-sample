@@ -81,8 +81,8 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.springframework.boot</groupId>
-                        <!-- <groupId>org.jacoco</groupId> -->
+                        <groupId>org.jacoco</groupId>
+                        <!-- <groupId>org.springframework.boot</groupId> -->
                         <artifactId>spring-boot-maven-plugin</artifactId>
                         <!-- <artifactId>jacoco-maven-plugin</artifactId> -->
                         <executions>
