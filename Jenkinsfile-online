@@ -83,8 +83,8 @@ pipeline {
                                     variable: 'KUBECONFIG')
                     ]) {
                         sh '''
-                    envsubst < deploy/dev-ol/devops-sample-svc.yaml | kubectl apply -f -
-                    envsubst < deploy/dev-ol/devops-sample.yaml | kubectl apply -f -
+                    envsubst < deploy/dev/devops-sample-svc.yaml | kubectl apply -f -
+                    envsubst < deploy/dev/devops-sample.yaml | kubectl apply -f -
                   '''
                     }
                 }
